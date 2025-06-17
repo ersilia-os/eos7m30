@@ -42,7 +42,7 @@ caco2_wang,float,high,Predicted Caco-2 cell effective permeability in log10-6 cm
 clearance_hepatocyte_az,float,high,Predicted clearance in hepatocytes in uL/min/106 cells
 clearance_microsome_az,float,high,Predicted clearance in microsomes in uL/min/mg
 half_life_obach,float,high,Predicted half-life in hours
-hydration_free_energy_freesolv,float,low,Predicted hydration free energy in kcal/mol
+hydrationfreeenergy_freesolv,float,low,Predicted hydration free energy in kcal/mol
 ld50_zhu,float,low,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
 lipophilicity_astrazeneca,float,high,Physicochemical property for lipophilicity in log-ratio
 ppbr_az,float,high,Predicted plasma protein binding rate
