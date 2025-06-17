@@ -43,12 +43,19 @@ _10 of 49 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7m30](https://hub.docker.com/r/ersiliaos/eos7m30)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6064`
+- **Image Size (Mb):** `5919.42`
 
+**Computational Performance (seconds):**
+- 10 inputs: `41.33`
+- 100 inputs: `41.1`
+- 10000 inputs: `1285.51`
 
 ### References
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
