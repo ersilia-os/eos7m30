@@ -2,37 +2,42 @@ Identifier: eos7m30
 Slug: admet-ai-exact
 Status: In progress
 Title: ADMET properties prediction
-Description: ADMET AI is a framework for carrying out fast batch predictions for ADMET
-  properties. It is based on ensemble of five Chemprop-RDKit models and has been trained
-  on 41 tasks from the ADMET group in Therapeutics Data Commons (v0.4.1). Out of these
-  41 tasks, there are 31 classification tasks and 10 regression tasks. In addition
-  to that output also contains 8 physicochemical properties, namely, molecular weight,
-  logP, hydrogen bond acceptors, hydrogen bond doners, Lipinskis Rule of 5, QED, stereo
-  centers, and topological polar surface area. eos7d58 contains an implementation
-  of the model that also produces the percentile based on DrugBank approved drugs.
+Description: ADMET AI is a framework for carrying out fast batch predictions for
+  ADMET properties. It is based on ensemble of five Chemprop-RDKit models and 
+  has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons
+  (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 
+  regression tasks. In addition to that output also contains 8 physicochemical 
+  properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen 
+  bond doners, Lipinskis Rule of 5, QED, stereo centers, and topological polar 
+  surface area. eos7d58 contains an implementation of the model that also 
+  produces the percentile based on DrugBank approved drugs.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: External
 Task: Annotation
 Subtask: Property calculation or prediction
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Value
+  - Value
 Output Dimension: 49
 Output Consistency: Fixed
-Interpretation: 'ADMET outcomes, including physicochemical properties and classification tasks.'
+Interpretation: ADMET outcomes, including physicochemical properties and 
+  classification tasks.
 Tag:
-- ADME
-- Toxicity
+  - ADME
+  - Toxicity
 Biomedical Area:
-- ADMET
+  - ADMET
 Target Organism:
-- Homo sapiens
+  - Homo sapiens
 Publication Type: Peer reviewed
 Publication Year: 2025
-Publication: https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030
+Publication: 
+  https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030
 Source Code: https://github.com/swansonk14/admet_ai
 License: MIT
+Contributor: GemmaTuron
+Incorporation Date: '2025-06-17'
