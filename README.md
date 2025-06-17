@@ -2,6 +2,7 @@
 
 ADMET AI is a framework for carrying out fast batch predictions for ADMET properties. It is based on ensemble of five Chemprop-RDKit models and has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 regression tasks. In addition to that output also contains 8 physicochemical properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen bond doners, Lipinskis Rule of 5, QED, stereo centers, and topological polar surface area. eos7d58 contains an implementation of the model that also produces the percentile based on DrugBank approved drugs.
 
+This model was incorporated on 2025-06-17.
 
 ## Information
 ### Identifiers
@@ -42,8 +43,11 @@ _10 of 49 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1`
+- **Environment Size (Mb):** `6064`
 
 
 ### References
