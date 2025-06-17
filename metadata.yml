@@ -1,6 +1,6 @@
 Identifier: eos7m30
 Slug: admet-ai-exact
-Status: In progress
+Status: Ready
 Title: ADMET properties prediction
 Description: ADMET AI is a framework for carrying out fast batch predictions for
   ADMET properties. It is based on ensemble of five Chemprop-RDKit models and 
@@ -42,5 +42,15 @@ License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2025-06-17'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos7m30
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 6064.0
+Image Size: 5919.42
+Computational Performance 1: 41.33
+Computational Performance 2: 32.71
+Computational Performance 3: 41.1
+Computational Performance 4: 265.36
+Computational Performance 5: 1285.51
