@@ -1,1 +1,50 @@
 name,type,direction,description
+molecular_weight,float,high,Physicochemical property for molecular weight
+logp,float,low,Physicochemical property for logarithm of partition coefficient (logP)
+hydrogen_bond_acceptors,integer,high,Physicochemical property for the number of hydrogen bond acceptors
+hydrogen_bond_donors,integer,high,Physicochemical property for the number of hydrogen bond donors
+lipinski,integer,high,Compliance with Lipinski's rule of five (out of 4)
+qed,float,high,Quantitative estimate of drug-likeness (0-1)
+stereo_centers,integer,high,Physicochemical property for the number of stereocenters
+tpsa,float,high,Physicochemical property for topological polar surface area (TPSA) in squared Angstroms
+ames,float,high,Predicted probability of Ames mutagenicity
+bbb_martins,float,high,Predicted probability of blood-brain barrier penetration
+bioavailability_ma,float,high,Predicted probability of bioavailability
+cyp1a2_veith,float,high,Predicted probability of CYP1A2 inhibition
+cyp2c19_veith,float,high,Predicted probability of CYP2C19 inhibition
+cyp2c9_substrate_carbonmangels,float,high,Predicted probability of CYP2C9 substrate activity
+cyp2c9_veith,float,high,Predicted probability of CYP2C9 inhibition
+cyp2d6_substrate_carbonmangels,float,high,Predicted probability of CYP2D6 substrate activity
+cyp2d6_veith,float,high,Predicted probability of CYP2D6 inhibition
+cyp3a4_substrate_carbonmangels,float,high,Predicted probability of CYP3A4 substrate activity
+cyp3a4_veith,float,high,Predicted probability of CYP3A4 inhibition
+carcinogens_lagunin,float,high,Predicted probability of carcinogenicity
+clintox,float,high,Predicted probability of clinical toxicity
+dili,float,high,Predicted probability of drug-induced liver injury
+hia_hou,float,high,Predicted probability of human intestinal absorption
+nr_ar_lbd,float,high,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor ligand-binding domain
+nr_ar,float,high,Predicted probability of toxicity-related interaction with nuclear receptor androgen receptor
+nr_ahr,float,high,Predicted probability of toxicity-related interaction with nuclear receptor aryl hydrocarbon receptor
+nr_aromatase,float,high,Predicted probability of toxicity-related interaction with nuclear receptor aromatase
+nr_er_lbd,float,high,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor ligand-binding domain
+nr_er,float,high,Predicted probability of toxicity-related interaction with nuclear receptor estrogen receptor
+nr_ppar_gamma,float,high,Predicted probability of toxicity-related interaction with nuclear receptor peroxisome proliferator-activated receptor gamma
+pampa_ncats,float,high,Predicted probability of PAMPA permeability
+pgp_broccatelli,float,high,Predicted probability of P-glycoprotein inhibition
+sr_are,float,high,Predicted probability of toxicity-related interaction with stress response antioxidant response element
+sr_atad5,float,high,Predicted probability of toxicity-related interaction with stress response ATAD5
+sr_hse,float,high,Predicted probability of toxicity-related interaction with stress response heat shock element
+sr_mmp,float,high,Predicted probability of toxicity-related interaction with stress response metalloproteinases
+sr_p53,float,high,Predicted probability of toxicity-related interaction with stress response p53
+skin_reaction,float,high,Predicted probability of skin reaction
+herg,float,high,Predicted probability of hERG blocking (cardiotoxicity)
+caco2_wang,float,high,Predicted Caco-2 cell effective permeability in log10-6 cm/s
+clearance_hepatocyte_az,float,high,Predicted clearance in hepatocytes in uL/min/106 cells
+clearance_microsome_az,float,high,Predicted clearance in microsomes in uL/min/mg
+half_life_obach,float,high,Predicted half-life in hours
+hydrationfreeenergy_freesolv,float,low,Predicted hydration free energy in kcal/mol
+ld50_zhu,float,low,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
+lipophilicity_astrazeneca,float,high,Physicochemical property for lipophilicity in log-ratio
+ppbr_az,float,high,Predicted plasma protein binding rate
+solubility_aqsoldb,float,high,Predicted solubility in log(mol/L)
+vdss_lombardo,float,high,Predicted volume of distribution at steady state (VDss) in L/kg

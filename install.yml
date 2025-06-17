@@ -1,4 +1,7 @@
 python: "3.10"
 commands:
-    - ["pip", "rdkit-pypi", "2022.3.1b1"]
-    - ["conda", "pandas", "1.3.5", "default"]
+    - ["pip", "tensorboardX", "2.0"]
+    - ["pip", "admet-ai", "1.2.0"]
+    - ["pip", "numpy", "1.23.5"]
+    - ["pip", "protobuf", "3.20.0"]
+    - ["pip", "torch", "1.12.0"]
