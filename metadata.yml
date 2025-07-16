@@ -22,6 +22,7 @@ Input:
 Input Dimension: 1
 Output:
   - Value
+  - Score
 Output Dimension: 49
 Output Consistency: Fixed
 Interpretation: ADMET outcomes, including physicochemical properties and 
