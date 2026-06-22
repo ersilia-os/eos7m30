@@ -1,6 +1,6 @@
 Identifier: eos7m30
 Slug: admet-ai-exact
-Status: Ready
+Status: In maintenance
 Title: ADMET properties prediction
 Description: ADMET AI is a framework for carrying out fast batch predictions for
   ADMET properties. It is based on ensemble of five Chemprop-RDKit models and 
