@@ -2,15 +2,7 @@ Identifier: eos7m30
 Slug: admet-ai-exact
 Status: In maintenance
 Title: ADMET properties prediction
-Description: ADMET AI is a framework for carrying out fast batch predictions for
-  ADMET properties. It is based on ensemble of five Chemprop-RDKit models and 
-  has been trained on 41 tasks from the ADMET group in Therapeutics Data Commons
-  (v0.4.1). Out of these 41 tasks, there are 31 classification tasks and 10 
-  regression tasks. In addition to that output also contains 8 physicochemical 
-  properties, namely, molecular weight, logP, hydrogen bond acceptors, hydrogen 
-  bond doners, Lipinskis Rule of 5, QED, stereo centers, and topological polar 
-  surface area. eos7d58 contains an implementation of the model that also 
-  produces the percentile based on DrugBank approved drugs.
+Description: ADMET-AI is a framework for fast batch predictions of ADMET properties, based on an ensemble of 5 Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from the Therapeutics Data Commons ADMET group (v0.4.1). Output includes 8 physicochemical properties: molecular weight, logP, H-bond acceptors/donors, Lipinski's Rule of 5, QED, stereo centers, and TPSA. eos7d58 implements this model and additionally provides percentiles based on DrugBank-approved drugs.
 Deployment:
   - Local
 Source: Local
