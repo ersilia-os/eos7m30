@@ -2,7 +2,7 @@
 
 ADMET-AI is a framework for fast batch predictions of ADMET properties, based on an ensemble of 5 Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from the Therapeutics Data Commons ADMET group (v0.4.1). Output includes 8 physicochemical properties molecular weight, logP, H-bond acceptors/donors, Lipinski Rule of 5, QED, stereo centers, and TPSA. eos7d58 implements this model and additionally provides percentiles based on DrugBank-approved drugs.
 
-This model was incorporated on 2025-06-17.Last packaged on 2025-08-27.
+This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 49 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6050`
-- **Image Size (Mb):** `7266.07`
+- **Image Size (Mb):** `6023.19`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.47`
-- 100 inputs: `24.27`
-- 10000 inputs: `391.04`
+- 10 inputs: `35.95`
+- 100 inputs: `27.61`
+- 10000 inputs: `331.75`
 
 ### References
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
