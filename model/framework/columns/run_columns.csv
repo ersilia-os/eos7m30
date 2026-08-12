@@ -1,6 +1,6 @@
 name,type,direction,description
 molecular_weight,float,high,Physicochemical property for molecular weight
-logp,float,low,Physicochemical property for logarithm of partition coefficient (logP)
+logp,float,high,Physicochemical property for logarithm of partition coefficient (logP)
 hydrogen_bond_acceptors,integer,high,Physicochemical property for the number of hydrogen bond acceptors
 hydrogen_bond_donors,integer,high,Physicochemical property for the number of hydrogen bond donors
 lipinski,integer,high,Compliance with Lipinski's rule of five (out of 4)
@@ -43,7 +43,7 @@ clearance_hepatocyte_az,float,high,Predicted clearance in hepatocytes in uL/min/
 clearance_microsome_az,float,high,Predicted clearance in microsomes in uL/min/mg
 half_life_obach,float,high,Predicted half-life in hours
 hydrationfreeenergy_freesolv,float,low,Predicted hydration free energy in kcal/mol
-ld50_zhu,float,low,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
+ld50_zhu,float,high,Predicted lethal dose (LD50) for acute toxicity in log(1/(mol/kg))
 lipophilicity_astrazeneca,float,high,Physicochemical property for lipophilicity in log-ratio
 ppbr_az,float,high,Predicted plasma protein binding rate
 solubility_aqsoldb,float,high,Predicted solubility in log(mol/L)
