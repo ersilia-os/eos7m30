@@ -1,6 +1,6 @@
 # ADMET properties prediction
 
-ADMET-AI is a framework for fast batch predictions of ADMET properties, based on an ensemble of 5 Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from the Therapeutics Data Commons ADMET group (v0.4.1). Output includes 8 physicochemical properties molecular weight, logP, H-bond acceptors/donors, Lipinski Rule of 5, QED, stereo centers, and TPSA. eos7d58 implements this model and additionally provides percentiles based on DrugBank-approved drugs.
+Profiles a compound across 41 ADMET endpoints in one pass, spanning absorption, distribution, metabolism, excretion and toxicity. ADMET-AI, from Swanson and colleagues, fits an ensemble of five Chemprop models augmented with RDKit descriptors to the ADMET benchmark group of the Therapeutics Data Commons, of which 31 tasks are classification and 10 regression. Speed was the design goal, making it practical to profile entire virtual libraries, though each endpoint inherits the size and quality of its source dataset.
 
 This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `49`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** ADMET outcomes, including physicochemical properties and classification tasks.
+- **Interpretation:** Predictions across 41 ADMET endpoints, combining classification probabilities and regression values.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -61,7 +61,7 @@ _10 of 49 columns are shown_
 - **Source Code**: [https://github.com/swansonk14/admet_ai](https://github.com/swansonk14/admet_ai)
 - **Publication**: [https://doi.org/10.1093/bioinformatics/btae416](https://doi.org/10.1093/bioinformatics/btae416)
 - **Publication Type:** `Peer reviewed`
-- **Publication Year:** `2025`
+- **Publication Year:** `2024`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
 
 ### License
