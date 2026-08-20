@@ -1,6 +1,6 @@
 # ADMET properties prediction
 
-Profiles a compound across 41 ADMET endpoints in one pass, spanning absorption, distribution, metabolism, excretion and toxicity. ADMET-AI, from Swanson and colleagues, fits an ensemble of five Chemprop models augmented with RDKit descriptors to the ADMET benchmark group of the Therapeutics Data Commons, of which 31 tasks are classification and 10 regression. Speed was the design goal, making it practical to profile entire virtual libraries, though each endpoint inherits the size and quality of its source dataset.
+ADMET-AI is a framework for fast batch predictions of ADMET properties, based on an ensemble of 5 Chemprop-RDKit models. It was trained on 41 tasks (31 classification, 10 regression) from the Therapeutics Data Commons ADMET group (v0.4.1). Output includes 8 physicochemical properties molecular weight, logP, H-bond acceptors/donors, Lipinski Rule of 5, QED, stereo centers, and TPSA. eos7d58 implements this model and additionally provides percentiles based on DrugBank-approved drugs.
 
 This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `49`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Predictions across 41 ADMET endpoints, combining classification probabilities and regression values.
+- **Interpretation:** ADMET outcomes, including physicochemical properties and classification tasks.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
