@@ -1,6 +1,6 @@
 # ADMET properties prediction
 
-Profiles a compound across 41 ADMET endpoints in one pass, spanning absorption, distribution, metabolism, excretion and toxicity. ADMET-AI, from Swanson and colleagues, fits an ensemble of five Chemprop models augmented with RDKit descriptors to the ADMET benchmark group of the Therapeutics Data Commons, of which 31 tasks are classification and 10 regression. Speed was the design goal, making it practical to profile entire virtual libraries, though each endpoint inherits the size and quality of its source dataset.
+Profiles a compound across the 41 ADMET endpoints of the Therapeutics Data Commons collection (v0.4.1), 31 of them classification tasks and 10 regressions, and adds eight RDKit physicochemical properties for context. Swanson and colleagues trained a Chemprop-RDKit graph network per dataset, ensembling five scaffold-split replicates, and report the best average rank on the TDC leaderboard with a million molecules scored in about three hours. This build returns the raw predictions without the DrugBank percentile comparison.
 
 This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
 ### Output
 - **Output Dimension:** `49`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Predictions across 41 ADMET endpoints, combining classification probabilities and regression values.
+- **Interpretation:** Eight computed physicochemical descriptors alongside thirty-one ADMET probabilities and ten regression endpoints in their native units.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
