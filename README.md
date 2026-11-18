@@ -2,7 +2,8 @@
 
 Profiles a compound across the 41 ADMET endpoints of the Therapeutics Data Commons collection (v0.4.1), 31 of them classification tasks and 10 regressions, and adds eight RDKit physicochemical properties for context. Swanson and colleagues trained a Chemprop-RDKit graph network per dataset, ensembling five scaffold-split replicates, and report the best average rank on the TDC leaderboard with a million molecules scored in about three hours. This build returns the raw predictions without the DrugBank percentile comparison.
 
-This model was incorporated on 2025-06-17.Last packaged on 2026-07-06.
+This model was incorporated on 2025-06-17.
+Last packaged on 2026-07-06.
 
 ## Information
 ### Identifiers
@@ -29,7 +30,7 @@ Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
 | molecular_weight | float | high | Physicochemical property for molecular weight |
-| logp | float | low | Physicochemical property for logarithm of partition coefficient (logP) |
+| logp | float | high | Physicochemical property for logarithm of partition coefficient (logP) |
 | hydrogen_bond_acceptors | integer | high | Physicochemical property for the number of hydrogen bond acceptors |
 | hydrogen_bond_donors | integer | high | Physicochemical property for the number of hydrogen bond donors |
 | lipinski | integer | high | Compliance with Lipinski's rule of five (out of 4) |
@@ -46,6 +47,7 @@ _10 of 49 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos7m30](https://hub.docker.com/r/ersiliaos/eos7m30)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7m30.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos7m30_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos7m30_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
