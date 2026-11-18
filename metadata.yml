@@ -47,6 +47,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos7m30
 Docker Architecture:
   - AMD64
   - ARM64
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos7m30_v1.sif
 Model Size: 1.0
 Environment Size: 6050.0
 Image Size: 6023.19
